@@ -5,7 +5,7 @@ These files learn from the training data from multiple inverse problem simulatio
 the various DEM paramters in the title of the notebook. For example, MFiX_file_edit_'insert parameter here'_8mm.ipynb. 
 ## Overall mfx file edit
 This notebook takes all of the predictions from the seperate MFiX file edit files and combines them so that the MFiX input file (PhysTwin+bucket.rev1,mfx) can be 
-executed in the MFiX application.
+executed in the MFiX application. The predictions made in this section were made with a linear regression.
 ### Notes
 The two above files need to be run in Power Automate before the MFiX simulation is run in the MFiX application. The files below are run after the MFiX simulation
 is complete. 
